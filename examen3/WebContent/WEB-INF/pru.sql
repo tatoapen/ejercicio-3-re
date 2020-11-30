@@ -1,0 +1,1 @@
+select idcompra as ID, cantidad as Cantidad, nombre as Descripcion from compra

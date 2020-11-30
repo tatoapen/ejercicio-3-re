@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<title>Materia</title>
+</h:head>
+ 
+<h:body>
+
+<h:form>
+     <table>
+      
+       <tr>
+       	  <td>cantidad:</td>
+          <td>
+            <h:inputText value="#{materiaController.materia.cantidad}" />
+          </td>    
+       </tr>
+         <tr>
+       	  <td>nombre:</td>
+          <td>
+            <h:inputText value="#{materiaController.materia.nombre}" />
+          </td>    
+       </tr>
+       
+     </table>
+     <h:commandButton value="Guardar" action="#{materiaController.guardar}"/>
+  </h:form>
+</h:body>
+</html>
